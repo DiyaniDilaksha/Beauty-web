@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.menu-bar{
+    width: 100%;
+    height: 80px;
+    /* background-color: #850d7c; */
+    text-align: center;
+    /* position: fixed;
+    z-index: 2;
+    overflow: hidden; */
+
+    background-image: linear-gradient(rgba(33, 2, 29, 0.8), rgba(154, 22, 40, 0.8));
+  
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 170px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 18px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover{
+    background-image: linear-gradient(#d129bb, #d291c0);
+    background-color: rgb(208, 98, 164);
+    border-radius: 3px;
+}
+
+.login-btn{
+   
+    right: 150px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.swiper{
+    height:550px; 
+    background-image: linear-gradient(rgba(122, 131, 190, 0.8),rgba(129, 15, 15, 0.8), rgba(138, 12, 154, 0.8) );
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.btn-aboutus{
+
+    background-color: #fd00da;
+    border: none;
+    color: black;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+     cursor: pointer;
+}
+.services h1, .our-team h1, .our-products h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(98, 16, 98);
+}
+.our-team{
+    background-image: linear-gradient(rgba(203, 90, 152, 0.8),rgba(225, 205, 222, 0.8), rgba(203, 90, 152, 0.8) );
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-image: linear-gradient(rgba(221, 136, 51, 0.8), rgba(92, 163, 16, 0.8));
+    border-radius: 60px;
+  }
+  .card a{
+    color: rgb(29, 24, 171);
+    font-weight: 700;
+  }
+  .container h4{
+    font-size: 25px;
+  }
+
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    background-color: #f2f2f2;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container1 {
+    padding: 2px 16px;
+  }
+  .container1 img{
+    border-radius: 100px;
+   margin-left: 900px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .skin-care, .hair-care, .nail-care, .massage{
+    margin-top: 20px;
+    margin-left: 100px;
+  }
